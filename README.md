@@ -38,7 +38,7 @@ Your `encore.app` file should look like this:
 $ encore run # Inside the backend directory
 ```
 
-5. In the `frontend/package.json`, replace `next-js-test-ts-9wvi` with the ID of your Encore application.
+5. In the `frontend/package.json`, replace `{{ENCORE_APP_ID}}` with the ID of your Encore application.
 
 
 6. Open a new terminal window and generate a new request client:
