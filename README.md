@@ -85,18 +85,13 @@ npm run gen # Will create a new request client frontend/app/lib/client.ts
 
 Follow these steps to deploy your backend to a staging environment in Encore's free development cloud.
 
-1. Open your app in the [Cloud Dashboard](https://app.encore.dev).
+1. Create a GitHub repo.
+2. Open your app in the Encore [Cloud Dashboard](https://app.encore.dev).
+3. Go to your app settings and set the "Root Directory" to `backend`. We need to do this because the `encore.app` file is not in the repo root.
+4. In the settings as well, link your app to GitHub and select the repo you just created.
+5. Commit your changes and push to GitHub.
 
-2. Go to your app settings and set the "Root Directory" to `backend`. We need to do this because the `encore.app` file is not in the repo root.
-
-3. Commit your changes and push to the `encore` remote:
-
-```bash
-git add -A .
-git commit -m 'Commit message'
-git push encore
-```
-
+This will trigger a deploy that you can follow in the Cloud Dashboard.
 When the deploy is complete, your app will be available in the cloud.
 
 ### Next.js on Vercel
