@@ -51,7 +51,7 @@ $ npm run gen # Inside the frontend directory
 
 Run your Encore backend:
 ```bash
-encore run # From inside the backend directory
+encore run # Inside the backend directory
 ```
 
 In a different terminal window, run the Next.js frontend:
