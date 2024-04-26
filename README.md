@@ -132,3 +132,5 @@ More information on CORS configuration can be found here: https://encore.dev/doc
 
 - [Encore Documentation](https://encore.dev/docs)
 - [Next.js Documentation](https://nextjs.org/docs)
+
+something
