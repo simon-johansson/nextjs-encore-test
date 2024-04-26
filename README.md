@@ -3,7 +3,7 @@
 This is an [Encore](https://encore.dev/) + [Next.js](https://nextjs.org/) project starter. It's a great way to learn how to combine Encore's backend 
 capabilities with a modern web framework — perfect for building a web app.
 
-## Clone this starter
+## Clone this example
 
 Go through the following steps to clone this starter:
 
@@ -18,7 +18,6 @@ $ git clone https://github.com/encoredev/nextjs-starter.git
 ```bash
 $ cd nextjs-starter/backend
 $ npm install      # Install dependencies
-$ rm -f encore.app # Remove the existing encore.app file
 $ encore app init  # Create a new Encore application
 ```
 

@@ -2,7 +2,7 @@
 
 import { useSearchParams } from "next/navigation";
 
-export default async function Unauthenticated() {
+export default function Unauthenticated() {
   const searchParams = useSearchParams();
   const fromPage = searchParams.get("from");
 
