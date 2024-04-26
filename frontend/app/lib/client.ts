@@ -16,7 +16,7 @@ export const Local: BaseURL = "http://localhost:4000"
  * Environment returns a BaseURL for calling the cloud environment with the given name.
  */
 export function Environment(name: string): BaseURL {
-    return `https://${name}-next-js-test-ts-9wvi.encr.app`
+    return `https://${name}-nextjs-test-xu72.encr.app`
 }
 
 /**
@@ -27,7 +27,7 @@ export function PreviewEnv(pr: number | string): BaseURL {
 }
 
 /**
- * Client is an API client for the next-js-test-ts-9wvi Encore application. 
+ * Client is an API client for the nextjs-test-xu72 Encore application. 
  */
 export default class Client {
     public readonly admin: admin.ServiceClient
@@ -191,7 +191,7 @@ class BaseClient {
         // Add User-Agent header if the script is running in the server
         // because browsers do not allow setting User-Agent headers to requests
         if (typeof window === "undefined") {
-            this.headers["User-Agent"] = "next-js-test-ts-9wvi-Generated-TS-Client (Encore/v1.36.3)";
+            this.headers["User-Agent"] = "nextjs-test-xu72-Generated-TS-Client (Encore/v1.36.3)";
         }
 
         this.requestInit = options.requestInit ?? {};
