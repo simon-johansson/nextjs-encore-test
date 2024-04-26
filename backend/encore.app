@@ -1,4 +1,6 @@
 {
-	"id": "nextjs-test-xu72",
-"experiments": ["typescript"]
+  "id": "nextjs-test-xu72",
+  "experiments": [
+    "typescript"
+  ]
 }
